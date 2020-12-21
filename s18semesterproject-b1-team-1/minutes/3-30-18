@@ -1,0 +1,51 @@
+Meeting Minutes for ____3-30-18_____:
+
+Meeting Attendance: (list all students who were present)
+	Put an 'M' next to the name of the student taking minutes
+	Winnie Zheng  [M]
+	Sally Leung
+  Eoghan McCarroll
+	
+Tasks completed since last meeting
+	* Finished Phase 1 
+  * Started the GUI:
+    - Defines a GUI application that includes the File menu with menu items to start a new game and quit the application
+    - The application displays 25 Locations so they appear as 5 rows each of which has 5 columns
+    - Choosing the menu item to exit the program ends the application
+
+Tasks worked upon but not completed since last meeting
+  * Choosing the new game menu item resets the system to a brand new game starting with the red team's turn
+    - Loading a new game without opening a new window.
+    - Each new game resets the Locations to not be revealed, assigns codewords using a new random choice of 25 words, 
+      and a new random assignment of where the Agents, Assassin, and Innocent Bystanders are placed
+
+Goals for the next meeting
+  * Continue implementing the "start new game" function (Winnie)
+    - Each new game resets the Locations to not be revealed, assigns codewords using a new random choice of 25 words, and a new random assignment of where the Agents, Assassin, and Innocent Bystanders are placed
+  * Spymaster's turn (Sally)
+    - The turn begins with a message dialog specifying the team whose turn is starting [2 points]
+    - The spymaster can enter a clue and count and then submit them to the system [10 points]
+    - Revealed Locations only display the Blue Agent/Red Agent/Assassin/Innocent Bystander assigned to them [4 points]
+    - Locations that have NOT been revealed display their codeword and the Blue Agent/Red Agent/Assassin/Innocent Bystander assigned to them [4 points]
+    - The GUI component used to enter a count only allows legal counts to be entered [2 points]
+    - If an illegal clue is entered, an error message is shown, and the spymaster is allowed to enter another clue [6 points]
+    - If a legal clue is entered, play moves to part of the turn where the rest of the team selects Location(s) to be revealed [6 points]
+  * Team's turn (Eoghan)
+    - The spymaster's clue and current count are clearly visible [2 points]
+    - Revealed Locations only display the Blue Agent/Red Agent/Assassin/Innocent Bystander assigned to them [4 points]
+    - Locations that have NOT been revealed ONLY display their codeword [4 points]
+    - Selecting the option to voluntarily end this turn, ends the turn [2 points]
+    - Revealed Locations cannot be selected [2 points]
+    - Selecting a Location that has not been revealed results in the Location being Revealed and the current count is decreased by 1 [4 points]
+    - When the Location that is selected contains the Assassin, Innocent Bystander, or Agent from the other team, the turn ends [6 points]
+    - When the Location that is selected reveals the last unrevealed Agent for the current team, the turn ends [2 points]
+    - If the count drops below 0, the turn ends [2 points]
+  * Ending the teams turn (Winnie)
+    - If the game has been won, a message is displayed stating the winning team has won [2 points]
+    - If the game has not been won, begin the turn for the other team [2 points]
+
+Schedule for the next week's set of pair programming meetings
+	* Group Meeting: Friday (2 PM)
+  * Pair Programming : Monday (1 PM - 2PM)- Sally , Eoghan
+                       Tuesday (1 PM - 2PM)- Winnie, Sally
+                       Thursday (10:30 AM)- Winnie, Eoghan

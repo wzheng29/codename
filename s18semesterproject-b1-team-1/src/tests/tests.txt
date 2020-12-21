@@ -1,0 +1,60 @@
+void readCodeNameTest()
+	class Board
+	Method:"read"
+	We use it to test the "read" method in the Board class.
+	
+	
+void codenameTest()
+	class Board
+	Method 1:"codename"
+	Method 2:"getCodenames"
+	We use it to randomly generate 25 codenames.
+	We use it to add codenmaes in order and put the list into a HashMap and make sure there is no duplication.
+	We use it to test the "codename" method in the Board class.
+	
+	
+void clueTest()
+	class Board
+	Method 1:"createLocations"
+	Method 2:"getLocations"
+	Method 3:"getCodename"
+	We use these methods to make sure if the clue legal or illegal.
+	We use it to test the "clue" method in the Board class.
+	
+	
+void shuffle_AgentsTest()
+	class Board
+	Method:"init"
+	We use this method to set up different types of players as "9 Red Agents, 8 Blue Agents, 7 Innocent Bystanders, and 1 Assassin at the beginning of the game.
+	We use it to test the "shuffle_Agents" method in the Board class.
+	
+	
+void createLocationsTest()
+	class Board
+	Method 1:"createLocations"
+	Method 2:"getLocations"
+	We use these methods to set up a location grid.
+	We use it to test the "createLocations" in the Board class.
+	
+	
+void testwhenTileSelected()
+	class Board
+	Method 1:"createLocations"
+	Method 2:"setVisible"
+	We use these methods to set if selected location's codename is revealed and it will be visible.
+	We use it to test "TileSelected" method in the Board class.
+
+void testisInWinningState()
+	class Board 
+	Method:"set_isRedTurn"
+	We use it to check if all Red Agents or Blue Agents are found, to test if there is a winner of the game.
+	We use it to test the "isInWinningState" method in the Board class.
+
+
+void testwhoWonAssassinRevealed()
+	class Board
+	Method:"set_isRedTurn"
+	We use it to check if the "Assassin" is found, if is Red's turn, then Blue wins the game, if not, Red wins the game.
+	We use it to test the "whoWonAssassinRevealed" method in Board class.
+	
+	

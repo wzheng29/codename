@@ -1,0 +1,38 @@
+Document of Merge Changes:
+
+We had 2 Versions of whoWonAssassinRevealed() and I had to decide between the 2 of them.
+
+Requirement: Method defined which correctly returns which team did not lose (i.e., win) when the Assassin was revealed [10 points]
+
+Although Version 1 has extra functionality, I chose Version 2 because it does only what the phase requires.
+Perhaps they wanted this method to be called once an assassin was "Revealed" and want us to later implement a method that returns the winner at all times.
+
+Version 1:
+	public String whoWonAssassinRevealed() {
+		if (this.isInWinningState()) {
+		  int redscore = _tilesRevealed.get("Red");
+	      int bluescore = _tilesRevealed.get("Blue");
+	      if (redscore == 9) {
+	        return new String("Red");
+	      }
+	      else if (bluescore == 8) {
+	        return new String("Blue");
+	      }
+	      else if (this.get_isRedTurn()) {
+	        return new String("Blue");
+	      }
+	      return new String("Red");
+		}
+    return null;
+	}
+	
+Version 2:
+	public String whoWonAssassinRevealed() {
+		if(_tilesRevealed.get("Assassin")==1) {
+			if(_isRedTurn==true) {
+				return "Blue";
+			}
+			else return "Red";
+		}
+		return null;
+	}

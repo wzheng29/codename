@@ -1,0 +1,29 @@
+Meeting Minutes for ______03/04/18________:
+
+Meeting Attendance: (list all students who were present) [1 minute]
+	Put an 'M' next to the name of the student taking minutes
+	- Winnie Zheng
+    - Eoghan McCarroll [M]
+	
+Tasks completed since last meeting
+  *Finalized our Tests in Tests.java and added comments to them as well.
+  *We wrote tests.txt which has detailed descriptions of our tests
+  *Finished our JavaDoc notation throughout Board.java
+  *Finished our Methods
+
+Tasks worked upon but not completed since last meeting
+	* Tasks not completed last meeting:
+	-None
+
+Goals for the next meeting
+	* Goals for this meeting:
+    - Discuss what needs to be finished or modified
+    	-Change any public variables in Board to private
+    	-Update our JavaDoc
+    	-Check over everything before submitting
+		-Submit the Project
+  * Goals for next meeting (TBD):
+		-Plan out Phase 2
+
+Schedule for the next week's set of pair programming meetings
+	* None

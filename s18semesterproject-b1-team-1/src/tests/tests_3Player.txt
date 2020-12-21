@@ -1,0 +1,40 @@
+void readCodeNameTest()
+	Board3Player b
+	Tests read(String s) method: Makes sure that it read 25 words from a given file
+	
+void codenameTest()
+	Board3Player b, Location[][] l
+	Methods used: read(String s)
+	Tests codename(String s) method: Makes sure that the 25 randomly generated words are random and 
+		have no duplicates.
+
+void clueTest()
+	Board3Player b
+	Methods used: createLocations()
+	Tests clue() method: Checks whether a clue is valid or not.
+	
+void shuffle_AgentsTest()
+	Board3Player b
+	Methods used: init()
+	Tests shuffle_Agents() method: Makes sure the method shuffles the list of agents so that it is random.
+
+void createLocationsTest()
+	Board3Player b, Location[][] grid
+	Tests createLocations() method: Creates a 5x5 grid and ensures each location tile has a codename,
+		Agent (Person), and visibility is false.
+
+void testwhenTileSelected()
+	Board3Player game, Location t1-t4
+	Tests TileSlected(Location t) method: When a tile is selected, it ensures that the selected tile is 
+		visible and change any necessary variables (decrement count, change turn, etc.)
+
+void testisInWinningState()
+	Board3Player game, HashMap<String,Integer> scores
+	Tests isInWinningState() method: Checks all the possible winning conditions in the game (When assassin revealed, 
+		when all red/blue/green agents are found).
+	
+void testwhoWonAssassinRevealed()
+	Board3Player game
+	Tests whoWonAssassinRevealed() method: When the first assassin is revealed, the team that selected it will be
+		eliminated(lose). When the second assassin is selected, the team that selected it loses, and the winner is
+		declared.

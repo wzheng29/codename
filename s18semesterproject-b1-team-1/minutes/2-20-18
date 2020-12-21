@@ -1,0 +1,35 @@
+Meeting Minutes for _2/20/18________:
+Meeting Attendance: (list all students who were present)
+        Sally Leung (M)
+        ShuangShuang Chen
+        Winnie Zheng
+        Eoghan(Owen) McCarroll
+Tasks completed since last meeting 
+First meeting
+
+Tasks worked upon but not completed since last meeting
+First meeting
+
+Goals for the next meeting
+Goal: Write tests 
+Subgoals:
+Write Board, Location classes; no methods… just for instantiating for J-Unit tests
+     Write tests for the following:
+      1.Correctly reads codenames from a file named GameWords.txt and stores them in a List (sample files you can use are here and here)
+      2.Creates List containing 25 distinct codenames selected at random (hint: Java has some methods that could be a starting point for your implementation)
+      3.Creates List containing randomly generated assignments for each of the 9 Red Agents, 8 Blue Agents, 7 Innocent Bystanders, and 1 Assassin (hint: Java has some methods that could be a starting point for how to randomly order locations)
+      4.When game started, it is Red team's move and each of Board's 25 Location instances is assigned a codename, Person, and is Not Revealed
+      5.Method defined which correctly returns if a clue is legal or illegal (clues cannot equal a current codename unless that codename is in a locations that was already Revealed) 
+      6.Method defined which decrements the count, updates a Location when the Location's codename was selected, and returns if the Location contained the current team's Agent
+      7.Method defined which correctly returns whether or not the Board is in one of the winning states
+      8.Method defined which correctly returns which team did not lose (i.e., win) when the Assassin was revealed
+
+Schedule for the next week's set of pair programming meetings
+This week: 
+This meeting - Task 1
+All meetings will be at Davis
+Winnie Zheng - ShuangShuang Chen (Thursday 2pm - 4pm) - Tasks 2, 3
+Sally Leung - Winnie Zheng (Thursday 4pm - 6pm) - Tasks 4, 5
+ShuangShuang Chen - Eoghan McCarroll(Thursday 4pm- 6pm) - Tasks 6, 7
+Sally Leung - Eoghan McCarroll (Friday 12pm - 2pm) - Tasks 8, 9
+Group meeting to go over what tasks were completed, what more to be done, book rooms for next week - Thursday 6pm

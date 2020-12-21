@@ -1,0 +1,37 @@
+Meeting Minutes for _add meeting date___4/26/18_____:
+
+Meeting Attendance: (list all students who were present)
+	Put an 'M' next to the name of the student taking minutes
+	Winnie [M]
+  Sally
+  Eoghan
+	
+Tasks completed since last meeting
+	* Finished Phase 2
+
+Tasks worked upon but not completed since last meeting
+  [Sally] - JUnit Test
+	* Each team must write JUnit tests and the project code which passes these tests for the following features. 
+    Each bulleted item must be defined in its own method. JUnit test method names should clearly identify the item which they are testing.
+    - Submission includes a file, named tests.txt, which lists your 3-team variant test methods and the specific requirement for which it was written [2 points]
+    - Creates a List containing randomly generated assignments for each of the 6 Red Agents, 5 Blue Agents, 5 Green Agents, 7 Innocent Bystanders, and 2 Assassins [3 points]
+    - Method defined which correctly returns whether or not the Board is in one of the winning states [5 points]
+    - Method defined which correctly returns which team wins once the 2nd Assassin is revealed [8 points]
+    - Method which returns which is used at the end of a turn to determine the team whose move is next (this must include the possibility that the next team in the 3-team rotation had previously Revealed an Assassin) [7 points]
+  [Winnie] - GUI
+    - Defines a GUI application that includes the File menu with menu items to start a new 2-team game, start a new 3-team game, and to quit the application [3 points]
+    - The application quits using the menu item from the File menu AND still works correctly when playing a 2-team game of Codewords [12 points]
+    - Choosing the new 3-team game menu item resets the Locations to not be revealed, assigns codewords using a new random choice of 25 words, and a new random assignment of where the Agents, Assassin, and 
+       Innocent Bystanders are placed. (You program should read this file for the full list of possible codewords). [6 points]
+  [Eoghan] - Board
+    - Update Board class to include 3-Player mode.
+    - Update functionality of turns
+    - The spymaster's portion of the turn in a 3-team game
+    - The rest of the team's portion of the turn in a 3-team game
+Goals for the next meeting
+	* Finish components assigned to everyone
+  * Connect all the components so that the game will accommodate 3-player and 2-player versions
+  * Update Easter Eggs
+
+Schedule for the next week's set of pair programming meetings
+	* 

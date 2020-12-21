@@ -1,0 +1,41 @@
+Meeting Minutes for ______2/27/18________:
+
+Meeting Attendance: (list all students who were present) [1 minute]
+	Put an 'M' next to the name of the student taking minutes
+	- Winnie Zheng [M]
+	- Sally Leung
+  - Eoghan(Owen) McCarroll
+  - ShuangShuang Chen
+	
+Tasks completed since last meeting
+	* Wrote test methods to check some basic functions of the game:
+    - Read codenames from a file (readCodeNameTest)
+    - Generating 25 random codenames (codenameTest)
+    - Check if each location on the gird is filled with a random character (ex: Red Agent, Blue Agent, etc.)(testAssignAgents)
+    - Check that each location on the board is filled (testSetup)
+    - Check if it is the Red Team's turn (testSetup)
+    - Check properties of a selected tile (testWhenTileSelected)
+    - Check who is winning (testisInWinningState)
+    - Check which team won after the assassin is revealed (testwhoWonAssassinRevealed)
+  * Wrote 3 additional classes to setup the game: Location, Board, Person
+
+Tasks worked upon but not completed since last meeting
+	* Tasks not completed last meeting:
+    - Some tests are not 100% complete. For example, when we test for random codenames, we did not test whether the codenames are repeated/ empty.
+    - Writing the methods that will see if the tests are working.
+
+Goals for the next meeting
+	* Goals for this meeting:
+    - Discuss what needs to be finished or modified
+        - Methods such as createLocations() were modified to be more sufficient
+        - Test methods were corrected and explained for clarification
+  * Goals for next meeting (Wednesday and Sunday):
+    - Wednesday
+      - Write the tests.txt file define the JUnite test methods
+      - Write Javadoc for non-JUnit classes, methods, and instance variables
+      - Correct any JUnit test methods or non-JUnit test methods
+    - Sunday
+      - Submiting 
+
+Schedule for the next week's set of pair programming meetings
+	* Group Meeting: Tues (3/6/18) : 4:00-6:00 PM 
